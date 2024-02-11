@@ -7,7 +7,7 @@ int main(){
   int j=n-1;
   while(i<j){
     if(arr[i]+arr[j]==n){
-      printf("possible");
+      printf("%d %d",arr[i] ,arr[j]);
       break;
     }
     else if(arr[i]+arr[j]>n) j--;
