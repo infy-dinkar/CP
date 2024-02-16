@@ -13,7 +13,7 @@ int main(){
     else if(arr[i]+arr[j]>n) j--;
     else if(arr[i]+arr[j]<n) j++;
     else{
-      printf("not found");
+      printf("NOT FOUND");
     }
   }
   return 0;
